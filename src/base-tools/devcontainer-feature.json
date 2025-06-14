@@ -1,0 +1,14 @@
+{
+  "id": "base-tools",
+  "version": "0.0.1",
+  "name": "CLI tools (nvim, zsh, git)",
+  "description": "Installs Neovim, Zsh and Git inside the dev container.",
+  "documentationURL": "https://github.com/<owner>/<repo>/src/cli-tools/README.md",
+  "options": {
+    "setAsDefaultShell": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether to make zsh the default shell for the current user."
+    }
+  }
+}
