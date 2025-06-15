@@ -1,7 +1,7 @@
 
-# CLI tools (nvim, zsh, git) (base-tools)
+# CLI tools (nvim, zsh, git, curl) (base-tools)
 
-Installs Neovim, Zsh and Git inside the dev container.
+Installs Neovim, Zsh, Curl and Git inside the dev container.
 
 ## Example Usage
 
