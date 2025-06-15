@@ -7,7 +7,7 @@ Installs Neovim, Zsh and Git inside the dev container.
 
 ```json
 "features": {
-    "ghcr.io/yezsama/devpod-repository/base-tools:0": {}
+    "ghcr.io/yezsama/devpod-features/base-tools:0": {}
 }
 ```
 
