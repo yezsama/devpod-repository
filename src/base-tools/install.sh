@@ -11,10 +11,10 @@ if command -v apt-get >/dev/null 2>&1; then
     # Debian/Ubuntu
     export DEBIAN_FRONTEND=noninteractive
     apt-get update -y
-    apt-get install -y --no-install-recommends git neovim zsh
+    apt-get install -y --no-install-recommends git neovim zsh curl
 elif command -v yum >/dev/null 2>&1; then
     # RHEL/Fedora
-    yum install -y git neovim zsh
+    yum install -y git neovim zsh curl
 else
     echo "Unsupported package manager. Please install git, neovim and zsh manually." >&2
     exit 1
